@@ -1,0 +1,446 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: ANYDAY WooCommerce\n"
+"POT-Creation-Date: 2020-11-23 09:45+0700\n"
+"PO-Revision-Date: 2020-11-23 09:21+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: adm-core.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: includes/classes/AnydayPayment.php:114
+msgid "Anyday payment failed!"
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:134
+msgid "Anyday payment captured!"
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:136
+msgid " - Captured amount: "
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:138
+msgid "Anyday payment successfully captured."
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:142
+msgid "Payment could not be captured. Please contact Anyday support."
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:202
+#: includes/classes/AnydayWooOrder.php:291
+msgid "Anyday payment cancelled!"
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:204
+msgid "Anyday payment successfully cancelled."
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:212
+msgid "Payment could not be cancelled. Please contact Anyday support."
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:265
+msgid "Anyday payment refunded!"
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:267
+msgid " - Refunded amount: "
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:269
+msgid "Anyday payment successfully refunded."
+msgstr ""
+
+#: includes/classes/AnydayPayment.php:273
+msgid "Payment could not be refunded. Please contact Anyday support."
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:23
+#: includes/classes/AnydayWooOrder.php:28
+msgid "Anyday Refunded"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:33
+msgid "Refunded"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:52
+msgid "Anyday Transaction ID:"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:92
+msgid "Anyday Capture"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:96
+msgid "Anyday Cancel"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:100
+msgid "Anyday Refund"
+msgstr ""
+
+#: includes/classes/AnydayWooOrder.php:309
+msgid "Anyday payment approved!"
+msgstr ""
+
+#: includes/classes/Assets.php:17
+msgid ""
+"Enter amount to be captured. Please note the amount cannot be higher than "
+"the order total!"
+msgstr ""
+
+#: includes/classes/Assets.php:18
+msgid "Please enter numeric value!"
+msgstr ""
+
+#: includes/classes/Assets.php:19
+msgid ""
+"Are you sure you want to cancel this order? This action cannot be undone."
+msgstr ""
+
+#: includes/classes/Assets.php:20
+msgid ""
+"Are you sure you want to refund this order? This action cannot be undone."
+msgstr ""
+
+#: includes/classes/Core.php:55
+msgid "Please authenticate with your Anyday merchant account!"
+msgstr ""
+
+#: includes/classes/Core.php:65
+msgid ""
+"The Anyday Production API key, Anyday Test API key and Anyday Pricetag token "
+"fields are mandatory. Please make sure to save the correct values. In case "
+"you do not have them contact Anyday support. "
+msgstr ""
+
+#: includes/classes/Core.php:75
+msgid ""
+"Your Anyday environment is set to Test Mode. Do not fulfill or ship any "
+"orders placed with Anyday! Change to Live Mode to begin accepting orders:"
+msgstr ""
+
+#: includes/classes/Core.php:75 includes/classes/Settings.php:24
+msgid "Anyday Payment Gateway Settings"
+msgstr ""
+
+#: includes/classes/Core.php:110
+msgid "Configure"
+msgstr ""
+
+#: includes/classes/MerchantAuthentication.php:77
+msgid "Merchant username is required!"
+msgstr ""
+
+#: includes/classes/MerchantAuthentication.php:77
+msgid "Merchant password is required!"
+msgstr ""
+
+#: includes/classes/MerchantAuthentication.php:107
+msgid "Merchant authenticaton successful."
+msgstr ""
+
+#: includes/classes/MerchantAuthentication.php:114
+msgid "An error occurred. Please contact Anyday support."
+msgstr ""
+
+#: includes/classes/Settings.php:27
+msgid "Anyday Pricetag Settings"
+msgstr ""
+
+#: includes/classes/Settings.php:56 includes/classes/Settings.php:250
+msgid "General Settings"
+msgstr ""
+
+#: includes/classes/Settings.php:63
+msgid "Language Localization"
+msgstr ""
+
+#: includes/classes/Settings.php:65 includes/classes/Settings.php:77
+msgid "da"
+msgstr ""
+
+#: includes/classes/Settings.php:66 includes/classes/Settings.php:78
+msgid "en"
+msgstr ""
+
+#: includes/classes/Settings.php:69
+msgid "Choose the Anyday Pricetag language"
+msgstr ""
+
+#: includes/classes/Settings.php:75
+msgid "Price Format Locale"
+msgstr ""
+
+#: includes/classes/Settings.php:81
+msgid "Choose the Anyday Pricetag format locale"
+msgstr ""
+
+#: includes/classes/Settings.php:89
+msgid "Product Page"
+msgstr ""
+
+#: includes/classes/Settings.php:96 includes/classes/Settings.php:141
+#: includes/classes/Settings.php:180
+msgid "Visibility"
+msgstr ""
+
+#: includes/classes/Settings.php:98 includes/classes/Settings.php:143
+#: includes/classes/Settings.php:182 includes/classes/Settings.php:271
+msgid "Enabled"
+msgstr ""
+
+#: includes/classes/Settings.php:99 includes/classes/Settings.php:144
+#: includes/classes/Settings.php:183 includes/classes/Settings.php:272
+msgid "Disabled"
+msgstr ""
+
+#: includes/classes/Settings.php:102
+msgid "Disable/enable the Anyday Pricetag on product page"
+msgstr ""
+
+#: includes/classes/Settings.php:108 includes/classes/Settings.php:153
+#: includes/classes/Settings.php:192
+msgid "Position Selector"
+msgstr ""
+
+#: includes/classes/Settings.php:109 includes/classes/Settings.php:154
+#: includes/classes/Settings.php:193
+msgid "Choose a CSS selector before which the Anyday Pricetag will be loaded"
+msgstr ""
+
+#: includes/classes/Settings.php:114
+msgid "Product Price Selector"
+msgstr ""
+
+#: includes/classes/Settings.php:115 includes/classes/Settings.php:121
+#: includes/classes/Settings.php:160 includes/classes/Settings.php:199
+msgid "Choose a CSS selector from where the price will be taken"
+msgstr ""
+
+#: includes/classes/Settings.php:120
+msgid "Variant Product Price Selector"
+msgstr ""
+
+#: includes/classes/Settings.php:126 includes/classes/Settings.php:165
+#: includes/classes/Settings.php:204
+msgid "Styles"
+msgstr ""
+
+#: includes/classes/Settings.php:127 includes/classes/Settings.php:166
+#: includes/classes/Settings.php:205
+msgid ""
+"Enter any valid CSS to update the Anyday Pricetag wrapper element. Pricetag "
+"font styles will inherit from these styles if specified."
+msgstr ""
+
+#: includes/classes/Settings.php:134
+msgid "Cart Page"
+msgstr ""
+
+#: includes/classes/Settings.php:147
+msgid "Disable/enable the Anyday Pricetag on cart page"
+msgstr ""
+
+#: includes/classes/Settings.php:159 includes/classes/Settings.php:198
+msgid "Price Selector"
+msgstr ""
+
+#: includes/classes/Settings.php:173
+msgid "Checkout Page"
+msgstr ""
+
+#: includes/classes/Settings.php:186
+msgid "Disable/enable the Anyday Pricetag on checkout page"
+msgstr ""
+
+#: includes/classes/Settings.php:224
+msgid "Merchant Authentication"
+msgstr ""
+
+#: includes/classes/Settings.php:231
+msgid "Authentication Type"
+msgstr ""
+
+#: includes/classes/Settings.php:233
+msgid "Manual"
+msgstr ""
+
+#: includes/classes/Settings.php:234
+msgid "Anyday Merchant Acount"
+msgstr ""
+
+#: includes/classes/Settings.php:237
+msgid ""
+"Choose a method how to authenticate in order to save the API keys and "
+"Pricetag token"
+msgstr ""
+
+#: includes/classes/Settings.php:257
+msgid "Mode"
+msgstr ""
+
+#: includes/classes/Settings.php:259
+msgid "Live"
+msgstr ""
+
+#: includes/classes/Settings.php:260
+msgid "Test"
+msgstr ""
+
+#: includes/classes/Settings.php:263
+msgid "Choose Anyday Environment"
+msgstr ""
+
+#: includes/classes/Settings.php:269
+msgid "Error Log"
+msgstr ""
+
+#: includes/classes/Settings.php:275
+msgid ""
+"Log each Anyday API error in a debug.log file which is located in the plugin "
+"root directory"
+msgstr ""
+
+#: includes/classes/Settings.php:288
+msgid "Anyday Production API key"
+msgstr ""
+
+#: includes/classes/Settings.php:291
+msgid "Anyday Test API key"
+msgstr ""
+
+#: includes/classes/Settings.php:294
+msgid "Anyday Pricetag token"
+msgstr ""
+
+#: includes/classes/Settings.php:300
+msgid "Merchant Username"
+msgstr ""
+
+#: includes/classes/Settings.php:301
+msgid "Enter your Anyday merchant account username"
+msgstr ""
+
+#: includes/classes/Settings.php:304
+msgid "Merchant Password"
+msgstr ""
+
+#: includes/classes/Settings.php:305
+msgid "Enter your Anyday merchant account password"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:18
+#: includes/classes/WC_Gateway_Anyday_Payment.php:56
+#: includes/classes/Settings.php:9
+msgid "Anyday"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:19
+#: includes/classes/WC_Gateway_Anyday_Payment.php:64
+msgid ""
+"A fair and transparent partial payment solution. Split your payment into monthly "
+"installments with no interest or fees."
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:46
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:48
+msgid "Enable Anyday"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:53
+msgid "Title"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:55
+msgid ""
+"This controls the title for the payment method the customer sees during "
+"checkout."
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:61
+#: includes/classes/WC_Gateway_Anyday_Payment.php:63
+msgid "Description"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:68
+msgid "Instructions"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:70
+msgid "Anyday payment instructions."
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:126
+msgid "Order status Pending until the order is Approved by Anyday."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Anyday WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://www.anyday.io"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A fair and transparent online payment solution for you and your customers"
+msgstr ""
+
+#: includes/classes/Core.php:75
+msgid "You have authenticated manually!"
+msgstr ""
+
+#: includes/classes/Core.php:83
+msgid "You have authenticated with your Anyday merchant account!"
+msgstr ""
+
+#: includes/classes/WC_Gateway_Anyday_Payment.php:132
+msgid "The payment must be approved in Anyday portal before Captured or Refunded"
+msgstr ""
+
+msgid "Before Payment is Authorized"
+msgstr ""
+
+msgid "After Payment is Authorized"
+msgstr ""
+
+msgid "After Payment is Captured"
+msgid ""
+
+msgid "Choose an Order Status for the Woocommerce order before the payment is authorized in Anyday portal"
+msgstr ""
+
+msgid "Choose an Order Status for the Woocommerce order after the payment is authorized in Anyday portal"
+msgstr ""
+
+msgid "Choose an Order Status for the Woocommerce order after the payment is fully captured in the order details page"
+msgstr ""
+
+msgid "payments have been successfully captured"
+msgstr ""
+
+msgid "payments have failed to be captured"
+msgstr ""

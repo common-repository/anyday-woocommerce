@@ -1,0 +1,116 @@
+#anyday-order-container {
+  margin: 0 0 70px;
+  padding: 30px 10px;
+  border-radius: 6px;
+  background-color: #f4f4f4;
+}
+
+@media screen and (min-width: 768px) {
+  #anyday-order-container {
+    padding: 30px;
+  }
+}
+
+#anyday-order-title {
+  margin: 0 0 14px;
+  padding: 0 0 30px;
+  border-bottom: 1px solid #cdcdcd;
+  font-size: 36px;
+  text-align: center;
+}
+
+#anyday-order-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 14px 0 0;
+  padding: 14px 8px 0;
+  border-top: 1px solid #cdcdcd;
+  font-size: 20px;
+}
+
+#anyday-order-item-info {
+  display: block;
+  font-size: 14px;
+  line-height: 1em;
+}
+
+#anyday-order-item-info:first-child {
+  margin: 0 0 8px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#anyday-order-item:first-child {
+  margin: 0;
+  padding-top: 0;
+  border: 0;
+}
+
+#anyday-order-item-total {
+  min-width: max-content;
+  margin: 0 12px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+}
+
+#anyday-order-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  width: 100%;
+  margin: 14px 0;
+  padding: 14px 8px 0;
+  border-top: 1px solid #cdcdcd;
+  text-align: end;
+}
+
+#anyday-order-total {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+#anyday-order-status {
+  display: block;
+  margin: 0 0 12px;
+  font-size: 16px;
+  color: #333333;
+}
+
+#anyday-payment-button {
+  margin: 0 4px 0 0;
+  padding: 8px;
+  background-color: #ccc;
+  color: #333;
+  outline: none;
+}
+
+#anyday-payment-button:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  #anyday-payment-button {
+    padding: 8px 20px;
+  }
+}
+
+#anyday-order-message {
+  display: block;
+  color: #009600;
+}
+
+.payment_method_anyday_payment_gateway label {
+  position: relative !important;
+}
+
+.payment_method_anyday_payment_gateway label img {
+  right: 0 !important;
+  max-width: 50px !important;
+  max-height: 20px !important;
+}

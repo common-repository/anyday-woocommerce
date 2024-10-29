@@ -1,0 +1,64 @@
+.anyday-login-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.5);
+  z-index: 9;
+}
+
+.anyday-login-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 250px;
+  padding: 14px 24px;
+  border: 1px solid #b4b4b4;
+  background-color: #f4f4f4;
+}
+
+.anyday-login-container form,h3 {
+  margin: 0;
+}
+
+.anyday-login-title {
+  margin-bottom: 20px !important;
+  text-align: center;
+}
+
+.anyday-login-input-container {
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.anyday-login-input {
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  padding: 12px 8px !important;
+  border-color: #b4b4b4 !important;
+  font-size: 14px;
+  line-height: 14px !important;
+}
+
+.anyday-login-input::placeholder {
+  color: #b4b4b4;
+}
+
+.anyday-login-button {
+  border: none;
+  background-color: #FF3366;
+  color: #fff;
+  outline:none;
+  cursor: pointer;
+}
+
+.anyday-error-message {
+  position: absolute;
+  top: 46px;
+  font-size: 14px;
+  color: #FF3366;
+}
